@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "sane-jira-tool",
+	"version": "0.0.1",
+	"description": "reduce the freaking noise!",
+	"homepage_url": "https://github.com/morgondag/chrome-sane-jira",
+	"content_scripts": [{
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["script.js"],
+      "css" : ["style.css"]
+    }]
+}
