@@ -1,5 +1,9 @@
+body{
+	background: #fff;
+}
+
 .aui-header{
-	background: #ccc !important;
+	background: #189d7f !important;
 }
 
 .toolbar-split-right{
@@ -8,7 +12,7 @@
 
 #footer, #viewissuesidebar,#opsbar-opsbar-transitions,
 #system-help-menu,.app-switcher-trigger, .jira-system-avatar,
-.details-module_heading, .aui-sidebar{
+.details-module_heading, .aui-sidebar, .ghx-parent-stub{
 	display: none !important
 }
 
@@ -45,14 +49,102 @@
 	font-size:16px;
 	padding:20px;
 }
+.ghx-issue-subtask{
+	margin:0px !important;
+}
 
 .module{
 	margin: 20px 0 !important;
 	max-width: 80% !important;
 }
-
+.navigator-issue-only .issue-body-content{
+	border:none !impoerant;
+}
+#gh{
+	padding:0px;
+}
 
 #content{
 	padding: 0 40px !important;
 	background: #fff !important;
+}
+
+.ghx-issue .ghx-flags, .ghx-days{
+	display: none
+}
+
+.ghx-issue-fields .ghx-summary .ghx-inner{
+	font-size:12px !important
+}
+.ghx-issue .ghx-issue-content{
+	font-size:12px !important
+	padding:10px !important;
+}
+.ghx-issue-fields .ghx-key{
+	font-size:12px !important;
+}
+
+.ghx-issue{
+	margin-bottom: 5px !important;
+	margin-top:5px !important;
+}
+
+.ghx-parent-group.ghx-away.js-fake-parent.js-parent-drag, .ghx-issue, .ghx-subtask-group{
+	margin-top: 10px;
+}
+
+.ghx-issue .ghx-highlighted-fields .ghx-highlighted-field .aui-label, .ghx-band-2 .ghx-highlighted-fields .ghx-highlighted-field .aui-label{
+	font-size:11px;
+}
+
+.ghx-issue .ghx-avatar{
+	right:0px !important;
+	top:0px !important;
+}
+.ghx-issue-fields{
+	padding:0px !important;
+}
+.ghx-summary{
+	padding-top:5px;
+}
+
+.ghx-issue .ghx-type{
+	left: 4px !important;
+    position: absolute !important;
+    top: -1px !important;
+}
+.ghx-issue .ghx-issue-content{
+	padding: 15px !important;
+}
+
+.ghx-issue.ghx-has-avatar .ghx-issue-fields, .ghx-issue.ghx-has-corner .ghx-issue-fields{
+	padding-right: 10px !important;
+}
+
+.ghx-scroll-columns .content, .ghx-agile #content, .ghx-column-headers .ghx-column{
+	padding:0px !important;
+}
+.ghx-column-headers h2{
+	font-size: 12px;
+}
+
+.ghx-controls-report{
+    height: 0px !important;
+    min-height: 10px !important;
+}
+#ghx-column-headers{
+	padding-bottom:5px !important;
+}
+
+.ghx-column-headers .ghx-column{
+	border: none !important;
+}
+
+#ghx-column-header-group, .ghx-column-headers{
+	border-bottom:solid 1px #ccc !important;
+}
+
+.ghx-controls-work{
+	height:0px !important;
+	min-height:0px !important;
 }
