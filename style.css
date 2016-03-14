@@ -2,9 +2,7 @@ body{
 	background: #fff;
 }
 
-.aui-header{
-	background: #189d7f !important;
-}
+
 
 .toolbar-split-right{
 	display:none !important;
@@ -147,4 +145,16 @@ body{
 .ghx-controls-work{
 	height:0px !important;
 	min-height:0px !important;
+}
+
+.linasmatkasse .aui-header{
+	background: #50CAB4 !important;
+}
+
+.linasmatkasse .aui-header-logo-custom {
+	background: url('https://linasmatkasse.atlassian.net/secure/projectavatar?pid=10100&avatarId=10700') no-repeat;
+	width: 48px;
+}
+.linasmatkasse .aui-header-logo-custom img{
+	display: none;
 }
