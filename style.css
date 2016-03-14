@@ -1,8 +1,11 @@
+
+/**
+	Remove crap:
+**/
+
 body{
 	background: #fff;
 }
-
-
 
 .toolbar-split-right{
 	display:none !important;
@@ -157,4 +160,8 @@ body{
 }
 .linasmatkasse .aui-header-logo-custom img{
 	display: none;
+}
+
+.aui-button{
+	background: rgba(0,0,0,.5) !important;
 }
