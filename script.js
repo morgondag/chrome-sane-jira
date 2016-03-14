@@ -1,5 +1,4 @@
 
-
 window.onload = function(){
 	clickComments();
 }
@@ -11,9 +10,4 @@ var clickComments = function(){
 		return;
 	}
 	tabPanel.click();
-	var commentsTab = document.querySelector('.tabs2');
-	if(!commentsTab){
-		return;
-	}
-	commentsTab.style.display = "none";
 }
