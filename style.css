@@ -147,7 +147,7 @@ body{
 
 .ghx-controls-work{
 	height:0px !important;
-	min-height:0px !important;
+	min-height:20px !important;
 }
 
 .linasmatkasse .aui-header{
@@ -162,6 +162,10 @@ body{
 	display: none;
 }
 
-.aui-button{
+.aui-header .aui-button{
 	background: rgba(0,0,0,.5) !important;
+}
+
+#jira:not(.ghx-header-compact) #ghx-controls-plan, #jira:not(.ghx-header-compact) #ghx-controls-work{
+	margin-top: 10px !important;
 }
