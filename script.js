@@ -2,6 +2,9 @@
 window.onload = function(){
 	clickComments();
 	linkmadness();
+	setTimeout(function() {
+		filterMadness();
+	}, 700);
 }
 
 var setBodyClass = function(){
@@ -29,6 +32,20 @@ var linkmadness = function(){
 	for (var i = 0; i < linkItem.length; i++) {
 		linkItem[i].addEventListener('click', function(e){
 			window.open(window.location.origin + e.target.getAttribute('href'),'_blank');
+		})
+	};
+}
+
+var filterMadness = function(){
+	var filterItems = document.querySelectorAll('.js-quickfilter-button');
+	if(filterItems.length <= 0){
+		return;
+	}
+	for (var i = 0; i < filterItems.length; i++) {
+		filterItems[i].addEventListener('click', function(e){
+			setTimeout(function() {
+				linkmadness();
+			}, 700);
 		})
 	};
 }
